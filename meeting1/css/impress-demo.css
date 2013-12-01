@@ -13,6 +13,8 @@
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 
+  font-family: 'Ubuntu', sans-serif;
+
   /* Impress.js specific */
   .fallback-message { display: none; }
   @page land {size: landscape;}
@@ -84,7 +86,7 @@ footer, header, hgroup, menu, nav, section {
 h1 { text-align: center; }
 
 p.footer { font-size: 0.7em; text-align: right; margin-top: 4em; }
-
+p.by {font-size: 0.3em; color: #567; text-align:left; margin-top:1em; padding-top:0.2em; border-top: 1px dashed red;}
 
 body {
     line-height: 1;
@@ -743,8 +745,32 @@ a:focus {
     But it was fun to learn about it, wasn't it?
 */
 
-/*
-    That's all I have for you in this file.
-    Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
-    for you.
-*/
+
+div.polaroid {
+    width:355px;
+    padding:10px 10px 20px 10px;
+    border:1px solid #BFBFBF;
+    background-color:white;
+    /* Add box-shadow */
+    box-shadow:2px 2px 3px #aaaaaa;
+}
+
+div.rotate_right {
+    -ms-transform:rotate(-8deg); /* IE 9 */
+    -webkit-transform:rotate(-8deg); /* Safari and Chrome */
+    transform:rotate(-8deg);
+}
+
+img.shadow {
+    -webkit-box-shadow: 12px 15px 21px 19px rgba(54,38,54,1);
+    -moz-box-shadow: 12px 15px 21px 19px rgba(54,38,54,1);
+    box-shadow: 12px 15px 21px 19px rgba(54,38,54,1);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+img.right {
+    float: right;
+}

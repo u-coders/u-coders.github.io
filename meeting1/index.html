@@ -9,7 +9,7 @@
     <meta name="description" content="Η Πληροφορική είναι ένα από τα επαγγέλματα του μέλλοντος. Τι ακριβώς μπορεί να σημαίνει αυτό;" />
     <meta name="author" content="Τάσος Κουτουμανος <tafkey@about.me>" />
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" /> -->
 
     <link href="css/impress-demo.css" rel="stylesheet" />
     
@@ -19,8 +19,8 @@
 
 <body class="impress-not-supported">
     <div class="fallback-message">
-        <p>Ο browser σου <b>δεν υποστηρίζει τις απαραίτητες λειτουργίες</b> για το impress.js. Για το λόγο η παρουσίαση εμφανίζεται με μια περιορισμένη εκδοχή της.</p>
-        <p>Για την βέλτιστη εμπειρία θα πρέπει να χρησιμοποιήσεις μία από τις τελευταίες εκδόσεις του <b>Chrome</b>, <b>Safari</b> ή <b>Firefox</b>.</p>
+        <p>Ο browser σου <b>δεν υποστηρίζει τις απαραίτητες λειτουργίες</b> για διαδραστική παρουσίαση. Για το λόγο αυτό εμφανίζεται μια περιορισμένη εκδοχή της παρουσίασης.</p>
+        <p>Για τη διαδραστική εκδοχή θα πρέπει να χρησιμοποιήσεις μια σύγχρονη έκδοση του <b>Firefox</b>, <b>Chrome</b> ή <b>Safari</b></p>
     </div>
 
 
@@ -33,10 +33,12 @@
           <span>30 Νοεμβρίου 2013</span> ·
           <span>1<sup>ο</sup> Γυμνάσιο Βριλησσίων</span>
         </p>
+        <p class="by"><span style="float: right; margin:0.2em;"><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img border="0" width="80px" height="15px" src="cc-by-sa-80x15.png" alt="Creative Commons License Attribution ShareAlike 4.0 International"/></a></span>&copy;2013 Τάσος Κουτουμάνος <a href="http://tafkey.eu/">tafkey.eu</a></p>
     </div>
 
     <div class="step slide" data-x="-1000" data-y="-1500">
         <q><em>"Η <b>Πληροφορική</b> είναι το επάγγελμα του μέλλοντος!"</em></q>
+        <p><img align="right" src="ilcode.jpg"/></p>
     </div>
 
     <!--
@@ -51,10 +53,12 @@
     -->
     <div class="step slide" data-x="0" data-y="-1500">
         <q>Τι ακριβώς όμως σημαίνει αυτό;</q>
+         <p><br/><img class="shadow right" src="puzzled.jpg"/></p>
     </div>
 
     <div class="step slide" data-x="1000" data-y="-1500">
-        <q>Θα πρέπει να γίνουν όλοι <strong>Πληροφορικάριοι</strong>;</q>
+        <q>Θα πρέπει να γίνουμε όλοι <strong>Πληροφορικάριοι</strong>;</q>
+        <p><img class="shadow right" src="code4food.jpg"/></p>
     </div>
 
     <!--
@@ -67,10 +71,11 @@
         down (4 times) to make it back to its correct size.
         
     -->
-    <div id="oxi" class="step title" data-x="0" data-y="0" data-scale="4">
-        <span class="try">;;;</span>
-        <h1>Όχι βέβαια!<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> Μερικοί όμως θα χρειαστούν. Και μερικές!</span>
+    <div id="oxi" class="step" data-x="0" data-y="0" data-scale="3">
+        <h1>Όχι βέβαια!</h1>
+        <p><br/>Μερικοί όμως καλοί<sup>*</sup><br/>
+        θα χρειαστούν!<img src="coderboy.jpg" width="300px" align="right"><br/>Και μερικές!</p>
+        <p class="footer"><sup>*</sup>developers, coders, designers, software architects, ...</p>
     </div>
 
     <!--
@@ -102,8 +107,23 @@
     </blockquote>
     </div>
 
+    <div id="art">
+        <p><img src="art.jpg" /></p>
+        <blockquote>Η Πληροφορική είναι επιστήμη, είναι όμως και τέχνη!</blockquote>
+    </div>
+
     <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
         <p>Αυτά είναι μόνο η <b>μισή</b> <span class="thoughts">αλήθεια!</span></p>
+    </div>
+
+
+    <div id="hawking" class="step" data-y="1350" data-x="500" data-scale="2">
+        <p><img src="hawking.jpg" /></p>
+        <blockquote class="small">είτε θέλεις να αποκαλύψεις τα μυστήρια του σύμπαντος<br/>
+        ή να ακολουθήσεις μια καριέρα στον 21ο αιώνα,<br/>
+        οι βασικές γνώσεις προγραμματισμού<br/>
+        είναι μια θεμελειώδης γνώση<br/>
+        που θα πρέπει να κατακτήσεις.</blockquote>
     </div>
 
     <!--
@@ -118,16 +138,6 @@
     <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
         <p>Η <b>Πληροφορική</b> είναι παντού....</p>
     </div>
-
-    <div id="hawking" class="step" data-y="1500" data-x="500" data-scale="2">
-        <p><img src="hawking.jpg" /></p>
-        <blockquote class="small">είτε θέλεις να αποκαλύψεις τα μυστήρια του σύμπαντος<br/>
-        ή να ακολουθήσεις μια καριέρα στον 21ο αιώνα,<br/>
-        οι βασικές γνώσεις προγραμματισμού<br/>
-        είναι μια θεμελειώδης γνώση<br/>
-        που θα πρέπει να κατακτήσεις.</blockquote>
-    </div>
-
 
     <!--
         
@@ -164,7 +174,7 @@
         <a href="http://u-coders.blogspot.gr" target="_new">Απαιτήστε το!</a></q>
     </div>
 
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="4">
         <p>Τέλος;</p>
     </div>
 
@@ -180,9 +190,12 @@
         as `data-rotate` (these two are basically aliases).
         
     -->
-    <div id="end" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p>Όχι! Αυτή είναι μόνο η αρχή<sup>*</sup></p>
-        <span class="footnote">* Καλή τύχη ;-)</span>
+    <div id="end" class="step" data-x="-2000" data-y="3300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p>Όχι! Αυτή είναι μόνο η αρχή!</p>
+        <div class="polaroid rotate_right" style="margin: 20px 0px 0px 160px">
+            <img src="code-of-love-tshirt.jpg" alt="Good luck!" width="355" height="355" />
+            <p class="caption">* Καλή τύχη ;-)</p>
+        </div>
     </div>
 
     <!--
