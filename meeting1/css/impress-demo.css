@@ -98,13 +98,22 @@ ul.bullet {
 li.bullet {
     font-size: .7em;
 }
-blockquote, q {
+/*blockquote, */
+q {
     quotes: none;
 }
-blockquote:before, blockquote:after,
+/*blockquote:before, blockquote:after,*/
 q:before, q:after {
     content: '';
     content: none;
+}
+
+blockquote {
+    font-size: 0.8em;
+}
+
+blockquote.small {
+    font-size: 0.5em; line-height: 1.1em; font-style: italic
 }
 
 table {
@@ -215,7 +224,7 @@ a:focus {
 
     font-family: 'PT Serif', georgia, serif;
     font-size: 48px;
-    line-height: 1.5;
+    line-height: 1.35;
 }
 
 /*
